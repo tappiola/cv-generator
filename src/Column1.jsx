@@ -27,7 +27,7 @@ const Column1 = () => (
       paddingLeft: 8,
       paddingRight: 8,
       width: "70%",
-      fontSize: 10,
+      fontSize: 9,
     }}
   >
     <View
@@ -51,7 +51,6 @@ const Column1 = () => (
         <Github />
       </Link>
     </View>
-
     <Text
       style={{
         fontSize: 13,
@@ -79,14 +78,14 @@ const Column1 = () => (
       <Email />
       <Link
         style={{ color: "black", textDecoration: "none" }}
-        href="mailto:karamorina@gmail.com"
+        href="mailto:t.karamorina@gmail.com"
       >
-        karamorina@gmail.com
+        t.karamorina@gmail.com
       </Link>
     </View>
     <Title>Profile</Title>
     <Text style={{ marginTop: 6 }}>
-      Tatiana is a frontend developer proficient in React and TypeScript.
+      Tatiana is a frontend engineer proficient in React and TypeScript.
       Leveraging 8 years of prior experience in QA, she brings an extensive
       technical background and ability to predict potential issues during
       development, ensuring that the products adhere to the highest standards of
@@ -100,7 +99,64 @@ const Column1 = () => (
     <Title>Employment History</Title>
     <View style={{ marginTop: 4 }}>
       <Workplace
-        title="Frontend Developer, Util"
+        title="Frontend Engineer, Santander"
+        location="London, UK"
+        dates="April 2024 — May 2025"
+      />
+      <Text style={{ marginTop: 8 }}>
+        <Text style={{ fontWeight: 600 }}>Project:</Text> multi-tenant platform
+        supporting the end-to-end lifecycle of vehicle leasing
+      </Text>
+      <Text
+        style={{
+          marginBottom: 6,
+          marginTop: 6,
+        }}
+      >
+        <Text style={{ fontWeight: 600 }}>Tech stack:</Text> React, TypeScript,
+        React Hook Form, Tailwind CSS, Tanstack Query, Turborepo, Vitest,
+        Storybook, Github Actions, AWS
+      </Text>
+      <ListItem>
+        Worked closely with stakeholders to translate high-level ideas into
+        clear requirements
+      </ListItem>
+      <ListItem>
+        Developed new features and reworked existing ones, coordinating with
+        multiple teams to deliver complex initiatives across multiple markets
+      </ListItem>
+      <ListItem>
+        Enhanced internal tooling and design system, eliminating gaps that
+        slowed delivery and moving UX toward greater consistency
+      </ListItem>
+      <ListItem>
+        Refactored legacy code, replacing outdated implementations with modern
+        solutions, thereby reducing technical debt and improving maintainability
+      </ListItem>
+      <ListItem>
+        Ensured application compliance with EAA, automated A11y checks
+      </ListItem>
+      <ListItem>
+        Encouraged adoption of better QA practices within the team, contributing
+        to fewer production incidents
+      </ListItem>
+      <ListItem>
+        Investigated and resolved production incidents, addressing alerts and
+        user issues with timely hotfixes
+      </ListItem>
+      <ListItem>
+        Improved observability by implementing Datadog dashboards and alerts,
+        enabling faster issue detection and resolution
+      </ListItem>
+      <ListItem>
+        Optimized CI pipeline and project architecture, resulting in better DX
+        and faster delivery of features
+      </ListItem>
+    </View>
+
+    <View style={{ marginTop: 4 }}>
+      <Workplace
+        title="Frontend Engineer, Util"
         location="London, UK"
         dates="August 2022 — January 2024"
       />
@@ -115,9 +171,8 @@ const Column1 = () => (
         }}
       >
         <Text style={{ fontWeight: 600 }}>Tech stack:</Text> React, TypeScript,
-        Redux, SASS, GraphQL, Apollo Client, Module Federation, Cypress,
-        Storybook, Chromatic, LaunchDarkly, Auth0, d3, plotly.js, Github
-        Actions, AWS
+        Redux, SASS, GraphQL, Apollo Client, MFEs, Cypress, Storybook,
+        Chromatic, LaunchDarkly, Auth0, d3, plotly.js, Github Actions, AWS
       </Text>
       <ListItem>
         Performed the full cycle of application development, from setting up
@@ -150,10 +205,9 @@ const Column1 = () => (
         productivity and fostering code reuse
       </ListItem>
     </View>
-
-    <View style={{ marginTop: 8 }}>
+    <View style={{ marginTop: 24 }}>
       <Workplace
-        title="Frontend Developer, Ondat"
+        title="Frontend Engineer, Ondat"
         location="London, UK"
         dates="JUNE 2022 — JULY 2022"
       />
@@ -190,10 +244,9 @@ const Column1 = () => (
         components (rewrote modals, improved usage of React Router and hooks)
       </ListItem>
     </View>
-
-    <View break style={{ marginTop: 24 }}>
+    <View style={{ marginTop: 8 }}>
       <Workplace
-        title="Frontend Developer, Scandiweb "
+        title="Frontend Engineer, Scandiweb"
         location="Riga, Latvia"
         dates="FEBRUARY 2021 — JANUARY 2022"
       />
@@ -231,7 +284,6 @@ const Column1 = () => (
         Added multiple custom ESLint rules and StyleLint to improve code quality
       </ListItem>
     </View>
-
     <View style={{ marginTop: 8 }}>
       <Workplace
         title="Software Developer in Test, Easybrain"
@@ -256,7 +308,6 @@ const Column1 = () => (
         resulted in quicker features delivery and fewer bugs in production
       </ListItem>
     </View>
-
     <View style={{ marginTop: 8 }}>
       <Workplace
         title="Software Developer in Test / QA Engineer, Wargaming.net"
@@ -281,7 +332,6 @@ const Column1 = () => (
         Docker
       </ListItem>
     </View>
-
     <View style={{ marginTop: 8 }}>
       <Workplace
         title="QA Engineer, A1QA"

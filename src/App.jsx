@@ -33,7 +33,7 @@ const App = () => (
   <div style={{ width: "100vw", height: "100vh" }}>
     <PDFViewer width="100%" height="100%">
       <Document
-        title="CV - Tatiana Karamorina - Frontend Developer"
+        title="CV - Tatiana Karamorina - Frontend Engoneer"
         author="Tatiana Karamorina"
         subject="Experienced Frontend Developer proficient Expertise in React and TypeScript"
         keywords="CV Frontend Developer Engineer JavaScript React Redux CSS Tailwind TypeScript Cypress D3 Microfrontends Next.js Svelte GraphQL London UK"
