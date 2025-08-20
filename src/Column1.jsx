@@ -53,11 +53,13 @@ const Column1 = () => (
     </View>
     <Text
       style={{
-        fontSize: 13,
+        fontSize: 12,
         marginTop: 2,
+        marginLeft: 2,
         textTransform: "uppercase",
         marginRight: 6,
         color: "#505050",
+        letterSpacing: 0.6,
       }}
     >
       Frontend Engineer
@@ -85,16 +87,17 @@ const Column1 = () => (
     </View>
     <Title>Profile</Title>
     <Text style={{ marginTop: 6 }}>
-      Tatiana is a frontend engineer proficient in React and TypeScript.
-      Leveraging 8 years of prior experience in QA, she brings an extensive
-      technical background and ability to predict potential issues during
-      development, ensuring that the products adhere to the highest standards of
-      quality.
+      Frontend Engineer with 4+ years of commercial experience, proficient in
+      React and TypeScript. With an additional 8 years in QA, she brings a
+      strong technical background and ability to anticipate potential issues
+      during development, ensuring delivery of high-quality, visually polished
+      products.
     </Text>
     <Text style={{ marginTop: 6 }}>
-      Quick learner with a keen eye for visual perfection. Thrives in rapidly
-      changing start-up environments and willingly undertakes a broad spectrum
-      of tasks.
+      She thrives in fast-paced environments, where priorities shift quickly and
+      collaboration is essential. Adaptable and proactive, Tatiana readily takes
+      on diverse responsibilities with the goal of moving projects forward
+      efficiently and sustainably.
     </Text>
     <Title>Employment History</Title>
     <View style={{ marginTop: 4 }}>
@@ -114,8 +117,8 @@ const Column1 = () => (
         }}
       >
         <Text style={{ fontWeight: 600 }}>Tech stack:</Text> React, TypeScript,
-        React Hook Form, Tailwind CSS, Tanstack Query, Turborepo, Vitest,
-        Storybook, Github Actions, AWS
+        React Hook Form, Tailwind CSS, Tanstack Query, Turborepo, i18next,
+        Vitest, Storybook, Github Actions, AWS
       </Text>
       <ListItem>
         Worked closely with stakeholders to translate high-level ideas into
@@ -126,8 +129,8 @@ const Column1 = () => (
         multiple teams to deliver complex initiatives across multiple markets
       </ListItem>
       <ListItem>
-        Enhanced internal tooling and design system, eliminating gaps that
-        slowed delivery and moving UX toward greater consistency
+        Enhanced internal tooling and design system, addressing fundamental gaps
+        and moving UX toward greater consistency
       </ListItem>
       <ListItem>
         Refactored legacy code, replacing outdated implementations with modern
@@ -137,20 +140,20 @@ const Column1 = () => (
         Ensured application compliance with EAA, automated A11y checks
       </ListItem>
       <ListItem>
-        Encouraged adoption of better QA practices within the team, contributing
-        to fewer production incidents
+        Encouraged adoption of better QA practices, contributing to fewer
+        incident reports
       </ListItem>
       <ListItem>
         Investigated and resolved production incidents, addressing alerts and
-        user issues with timely hotfixes
+        bug reports
       </ListItem>
       <ListItem>
         Improved observability by implementing Datadog dashboards and alerts,
         enabling faster issue detection and resolution
       </ListItem>
       <ListItem>
-        Optimized CI pipeline and project architecture, resulting in better DX
-        and faster delivery of features
+        Optimized CI pipeline, resulting in better DX and quicker delivery of
+        features
       </ListItem>
     </View>
 
@@ -176,8 +179,8 @@ const Column1 = () => (
       </Text>
       <ListItem>
         Performed the full cycle of application development, from setting up
-        microfrontend architecture, establishing CI processes and effective
-        testing strategy to first app release to production
+        microfrontend architecture, establishing CI processes and testing
+        strategy to first app release
       </ListItem>
       <ListItem>
         Implemented new features with focus on visualising complex datasets
@@ -201,11 +204,11 @@ const Column1 = () => (
         success
       </ListItem>
       <ListItem>
-        Developed a custom UI library, significantly enhancing developer
-        productivity and fostering code reuse
+        Developed a custom UI library, enhancing developer productivity and code
+        reuse
       </ListItem>
     </View>
-    <View style={{ marginTop: 24 }}>
+    <View break style={{ marginTop: 24 }}>
       <Workplace
         title="Frontend Engineer, Ondat"
         location="London, UK"
@@ -229,8 +232,8 @@ const Column1 = () => (
         Implemented new features according to Figma designs using React
       </ListItem>
       <ListItem>
-        Added responsive design support to core pages, encouraged the team to
-        adopt mobile-first approach
+        Added responsive design to core pages, promoted adoption of a
+        mobile-first approach
       </ListItem>
       <ListItem>
         Actively participated in requirement definition and feature design
@@ -241,7 +244,7 @@ const Column1 = () => (
       </ListItem>
       <ListItem>
         Refactored existing legacy code and improved architecture of multiple
-        components (rewrote modals, improved usage of React Router and hooks)
+        components
       </ListItem>
     </View>
     <View style={{ marginTop: 8 }}>
@@ -277,8 +280,8 @@ const Column1 = () => (
         Added new GraphQL endpoints, implemented backend logic changes
       </ListItem>
       <ListItem>
-        Enhanced application quality by addressing bugs, bolstering
-        accessibility and performance
+        Enhanced application quality through bug fixes, A11y, and performance
+        optimizations
       </ListItem>
       <ListItem>
         Added multiple custom ESLint rules and StyleLint to improve code quality
@@ -296,16 +299,15 @@ const Column1 = () => (
       </Text>
       <ListItem>
         Helped to increase stability of ETL processes and improve data quality,
-        which contributed to improved financial outcomes of multiple mobile apps
+        which contributing to better financial outcomes of multiple mobile apps
       </ListItem>
       <ListItem>
-        Introduced test automation on the project using python and pytest,
-        thereby optimizing efficiency of engineering work and reducing manual
-        efforts
+        Introduced test automation on the project, thereby optimizing efficiency
+        of engineering work and reducing manual efforts
       </ListItem>
       <ListItem>
-        Played an important role in formalizing the development flow, which
-        resulted in quicker features delivery and fewer bugs in production
+        Helped to formalize the development flow, enabling faster delivery with
+        fewer defects
       </ListItem>
     </View>
     <View style={{ marginTop: 8 }}>
@@ -323,13 +325,11 @@ const Column1 = () => (
         efforts between manual, integration and E2E tests (pytest)
       </ListItem>
       <ListItem>
-        Successfully performed the initial release of the app to production.
-        Optimized efficiency of release process by integrating automated tests
-        into CI (TeamCity)
+        Successfully performed the initial release of the app to production
       </ListItem>
       <ListItem>
-        Contributed to efficient testing by usage of mocks and running tests in
-        Docker
+        Improved efficiency of testing by using Docker and integrating automated
+        tests into CI
       </ListItem>
     </View>
     <View style={{ marginTop: 8 }}>
@@ -340,21 +340,15 @@ const Column1 = () => (
       />
       <Text style={{ marginTop: 8, marginBottom: 6 }}>
         <Text style={{ fontWeight: 600 }}>Project:</Text> multiple projects
-        across diverse domains (risk management, online gaming,
-        telecommunications, etc.)
+        across diverse domains (risk management, online gaming, etc.)
       </Text>
       <ListItem>
         Ensured the quality of mobile and web applications through functional,
-        regression and performance testing across multiple browsers and devices
+        regression and performance testing
       </ListItem>
       <ListItem>
-        Automated tests using Python and Selenium WebDriver, streamlining
-        testing processes and improving efficiency in detecting and addressing
-        software defects
-      </ListItem>
-      <ListItem>
-        Conducted accessibility testing to ensure compliance with accessibility
-        standards and enhance user experience
+        Created automated Python tests, reducing time to identify software
+        issues
       </ListItem>
     </View>
   </View>
