@@ -87,11 +87,10 @@ const Column1 = () => (
     </View>
     <Title>Profile</Title>
     <Text style={{ marginTop: 6 }}>
-      Frontend Engineer with 4+ years of commercial experience, proficient in
-      React and TypeScript. With an additional 8 years in QA, she brings a
-      strong technical background and ability to anticipate potential issues
-      during development, ensuring delivery of high-quality, visually polished
-      products.
+      Frontend Engineer proficient in React and TypeScript. With background in
+      QA, she brings a strong technical background and ability to anticipate
+      potential issues during development, ensuring delivery of high-quality,
+      visually polished products.
     </Text>
     <Text style={{ marginTop: 6 }}>
       She thrives in fast-paced environments, where priorities shift quickly and
@@ -129,7 +128,7 @@ const Column1 = () => (
         multiple teams to deliver complex initiatives across multiple markets
       </ListItem>
       <ListItem>
-        Enhanced internal tooling and design system, addressing fundamental gaps
+        Enhanced internal tooling and design system, addressing existing gaps
         and moving UX toward greater consistency
       </ListItem>
       <ListItem>
@@ -193,7 +192,7 @@ const Column1 = () => (
         Ensured application quality and compliance to accessibility standards
       </ListItem>
       <ListItem>
-        Spearheaded design and development of mobile version of the app
+        Led design and development of mobile version of the app
       </ListItem>
       <ListItem>
         Contributed to flawless production operations through well organised
