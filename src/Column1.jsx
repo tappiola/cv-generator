@@ -116,7 +116,7 @@ const Column1 = () => (
         }}
       >
         <Text style={{ fontWeight: 600 }}>Tech stack:</Text> React, TypeScript,
-        React Hook Form, Tailwind CSS, Tanstack Query, Turborepo, i18next,
+        React Hook Form, Tailwind CSS, TanStack Query, Turborepo, i18next,
         Vitest, Storybook, Github Actions, AWS
       </Text>
       <ListItem>
@@ -298,7 +298,7 @@ const Column1 = () => (
       </Text>
       <ListItem>
         Helped to increase stability of ETL processes and improve data quality,
-        which contributing to better financial outcomes of multiple mobile apps
+        which contributed to better financial outcomes of multiple mobile apps
       </ListItem>
       <ListItem>
         Introduced test automation on the project, thereby optimizing efficiency

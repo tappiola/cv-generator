@@ -46,7 +46,7 @@ const Column2 = () => (
     <TitleSecondary>Languages</TitleSecondary>
     <SectionText>JavaScript, TypeScript, Python</SectionText>
     <TitleSecondary>Frontend Frameworks</TitleSecondary>
-    <SectionText>React, Next.js, Tanstack Start, Svelte</SectionText>
+    <SectionText>React, Next.js, TanStack Start, Svelte</SectionText>
     <TitleSecondary>Styling</TitleSecondary>
     <SectionText>
       Tailwind CSS, Headless UI, ShadCN UI, Styled Components
@@ -65,7 +65,7 @@ const Column2 = () => (
     </SectionText>
     <TitleSecondary>React Libraries</TitleSecondary>
     <SectionText>
-      Redux Toolkit, React Hook Form, React PDF, React Spring, Tanstack Table
+      React Hook Form, Redux Toolkit, React PDF, React Spring, TanStack Table
     </SectionText>
     <TitleSecondary>Design Systems</TitleSecondary>
     <SectionText>Figma, Storybook</SectionText>
@@ -85,11 +85,11 @@ const Column2 = () => (
     <SectionText>Express, Nest.js, Prisma, FastApi, SqlAlchemy</SectionText>
     <TitleSecondary>AI / LLM</TitleSecondary>
     <SectionText>
-      OpenAI API, LangChain, Vector Databases, RAG, Prompt Engineering, Chatbots
+      OpenAI API, LangChain, Vector Databases, RAG, Chatbots
     </SectionText>
 
     <TitleSecondary>Databases</TitleSecondary>
-    <SectionText>Postgres, Redis, DynamoDB</SectionText>
+    <SectionText>PostgreSQL, Redis, DynamoDB</SectionText>
     <TitleSecondary>AWS</TitleSecondary>
     <SectionText>
       S3, Lambda, API Gateway, EC2, Cloudfront, IAM, Cloudwatch
