@@ -53,7 +53,8 @@ const Column2 = () => (
     </SectionText>
     <TitleSecondary>Testing</TitleSecondary>
     <SectionText>
-      Cypress, Jest, Vitest, Storybook, Chromatic, React Testing Library
+      Cypress, Playwright, Jest, Vitest, Storybook, Chromatic, React Testing
+      Library
     </SectionText>
     <TitleSecondary>Rest / GraphQL API</TitleSecondary>
     <SectionText>Apollo Client, Axios, TanStack Query</SectionText>
@@ -84,9 +85,7 @@ const Column2 = () => (
     </TitleSecondary>
     <SectionText>Express, Nest.js, Prisma, FastApi, SqlAlchemy</SectionText>
     <TitleSecondary>AI / LLM</TitleSecondary>
-    <SectionText>
-      OpenAI API, LangChain, Vector Databases, RAG, Chatbots
-    </SectionText>
+    <SectionText>OpenAI API, LangChain, Vector Databases, RAG</SectionText>
 
     <TitleSecondary>Databases</TitleSecondary>
     <SectionText>PostgreSQL, Redis, DynamoDB</SectionText>

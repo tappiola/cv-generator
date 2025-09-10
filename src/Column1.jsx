@@ -62,7 +62,7 @@ const Column1 = () => (
         letterSpacing: 0.6,
       }}
     >
-      Frontend Engineer
+      QA Engineer
     </Text>
     <View
       style={{
@@ -87,16 +87,11 @@ const Column1 = () => (
     </View>
     <Title>Profile</Title>
     <Text style={{ marginTop: 6 }}>
-      Frontend Engineer proficient in React and TypeScript. With background in
-      QA, she brings a strong technical background and ability to anticipate
-      potential issues during development, ensuring delivery of high-quality,
-      visually polished products.
-    </Text>
-    <Text style={{ marginTop: 6 }}>
-      She thrives in fast-paced environments, where priorities shift quickly and
-      collaboration is essential. Adaptable and proactive, Tatiana readily takes
-      on diverse responsibilities with the goal of moving projects forward
-      efficiently and sustainably.
+      QA Engineer with a solid development background, able to establish testing
+      processes from scratch, integrate QA into CI/CD pipelines, and ensure
+      teams deliver products of high quality. Adaptable and proactive, she
+      thrives in fast-paced environments, where priorities shift quickly and
+      collaboration is essential.
     </Text>
     <Title>Employment History</Title>
     <View style={{ marginTop: 4 }}>
@@ -105,55 +100,46 @@ const Column1 = () => (
         location="London, UK"
         dates="April 2024 — May 2025"
       />
-      <Text style={{ marginTop: 8 }}>
+      <Text style={{ marginTop: 8, marginBottom: 6 }}>
         <Text style={{ fontWeight: 600 }}>Project:</Text> multi-tenant platform
         supporting the end-to-end lifecycle of vehicle leasing
       </Text>
-      <Text
-        style={{
-          marginBottom: 6,
-          marginTop: 6,
-        }}
-      >
-        <Text style={{ fontWeight: 600 }}>Tech stack:</Text> React, TypeScript,
-        React Hook Form, Tailwind CSS, TanStack Query, Turborepo, i18next,
-        Vitest, Storybook, Github Actions, AWS
-      </Text>
       <ListItem>
-        Worked closely with stakeholders to translate high-level ideas into
-        clear requirements
+        Developed features in React and TypeScript with a strong focus on
+        testing and reliability
       </ListItem>
       <ListItem>
-        Developed new features and reworked existing ones, coordinating with
-        multiple teams to deliver complex initiatives across multiple markets
+        Ensured application quality through unit (Vitest) and integration
+        testing (Storybook)
       </ListItem>
       <ListItem>
-        Enhanced internal tooling and design system, addressing existing gaps
-        and moving UX toward greater consistency
+        Improved test automation quality by reducing mock usage, increasing test
+        coverage, and fixing flaky tests
       </ListItem>
       <ListItem>
-        Refactored legacy code, replacing outdated implementations with modern
-        solutions, thereby reducing technical debt and improving maintainability
+        Implemented E2E tests with Playwright to ensure stability of critical
+        user journeys
+      </ListItem>
+      <ListItem>Enhanced internal testing tooling</ListItem>
+      <ListItem>
+        Performed manual smoke and regression testing of complex user flows
       </ListItem>
       <ListItem>
         Ensured application compliance with EAA, automated A11y checks
       </ListItem>
       <ListItem>
-        Encouraged adoption of better QA practices, contributing to fewer
+        Promoted adoption of stronger QA practices, contributing to fewer
         incident reports
       </ListItem>
       <ListItem>
-        Investigated and resolved production incidents, addressing alerts and
-        bug reports
+        Planned and performed production releases, using feature flags to toggle
+        features safely
       </ListItem>
       <ListItem>
-        Improved observability by implementing Datadog dashboards and alerts,
-        enabling faster issue detection and resolution
+        Enabled faster issue detection by implementing Datadog dashboards and
+        alerts
       </ListItem>
-      <ListItem>
-        Optimized CI pipeline, resulting in better DX and quicker delivery of
-        features
-      </ListItem>
+      <ListItem>Improved reporting of test results in CI/CD pipeline</ListItem>
     </View>
 
     <View style={{ marginTop: 4 }}>
@@ -162,49 +148,40 @@ const Column1 = () => (
         location="London, UK"
         dates="August 2022 — January 2024"
       />
-      <Text style={{ marginTop: 8 }}>
+      <Text style={{ marginTop: 8, marginBottom: 6 }}>
         <Text style={{ fontWeight: 600 }}>Project:</Text> application focused on
         evaluating the ESG impact of companies through the lens of the UN SDGs
       </Text>
-      <Text
-        style={{
-          marginBottom: 6,
-          marginTop: 6,
-        }}
-      >
-        <Text style={{ fontWeight: 600 }}>Tech stack:</Text> React, TypeScript,
-        Redux, SASS, GraphQL, Apollo Client, MFEs, Cypress, Storybook,
-        Chromatic, LaunchDarkly, Auth0, d3, plotly.js, Github Actions, AWS
-      </Text>
       <ListItem>
-        Performed the full cycle of application development, from setting up
-        microfrontend architecture, establishing CI processes and testing
-        strategy to first app release
+        Set up architecture of a greenfield project using React, TypeScript and
+        micro-frontends
       </ListItem>
       <ListItem>
-        Implemented new features with focus on visualising complex datasets
+        Defined testing strategy from scratch, balancing automation and manual
+        testing
       </ListItem>
       <ListItem>
-        Created custom charts to enhance UX by simplifying comprehension of
-        intricate data
+        Configured a CI/CD pipeline with GitHub Actions for quality checks,
+        branch previews, and automated deployments to AWS
       </ListItem>
       <ListItem>
-        Ensured application quality and compliance to accessibility standards
+        Set up unit, integration, and end-to-end testing with Cypress, handling
+        complexities of a micro-frontend architecture and authentication flows
       </ListItem>
       <ListItem>
-        Led design and development of mobile version of the app
+        Integrated Chromatic for automated visual regression testing to catch
+        unintended UI changes
       </ListItem>
       <ListItem>
-        Contributed to flawless production operations through well organised
-        release process, application monitoring, and feature flags utilisation
+        Introduced manual pre-release testing with a structured TestRail suite
+        to validate key flows before release
       </ListItem>
       <ListItem>
-        Actively participated in feature design sessions to drive project
-        success
+        Ensured application compliance to accessibility standards
       </ListItem>
       <ListItem>
-        Developed a custom UI library, enhancing developer productivity and code
-        reuse
+        Supported flawless production operations through well organised release
+        process, application monitoring, and feature flags utilisation
       </ListItem>
     </View>
     <View break style={{ marginTop: 24 }}>
@@ -213,37 +190,17 @@ const Column1 = () => (
         location="London, UK"
         dates="JUNE 2022 — JULY 2022"
       />
-      <Text style={{ marginTop: 8 }}>
+      <Text style={{ marginTop: 8, marginBottom: 6 }}>
         <Text style={{ fontWeight: 600 }}>Project:</Text> portal for monitoring
         and configuring Kubernetes clusters
       </Text>
-      <Text
-        style={{
-          marginBottom: 6,
-          marginTop: 6,
-        }}
-      >
-        <Text style={{ fontWeight: 600 }}>Tech stack:</Text> React, TypeScript,
-        GraphQL, React Query, React Hook Form, Styled Components, Jest, React
-        Testing Library, Storybook, Nest.js, Prisma, Docker
-      </Text>
       <ListItem>
-        Implemented new features according to Figma designs using React
+        Implemented new features with focus on quality, which helped to increase
+        in test coverage by 15%
       </ListItem>
       <ListItem>
-        Added responsive design to core pages, promoted adoption of a
-        mobile-first approach
-      </ListItem>
-      <ListItem>
-        Actively participated in requirement definition and feature design
-      </ListItem>
-      <ListItem>
-        Committed efforts to enhance code quality, resulting in improved code
-        structure, better readability and 15% increase in test coverage
-      </ListItem>
-      <ListItem>
-        Refactored existing legacy code and improved architecture of multiple
-        components
+        Optimised usage of mocks in tests, reducing the need to provision
+        Kubernetes clusters for testing
       </ListItem>
     </View>
     <View style={{ marginTop: 8 }}>
@@ -252,38 +209,21 @@ const Column1 = () => (
         location="Riga, Latvia"
         dates="FEBRUARY 2021 — JANUARY 2022"
       />
-      <Text style={{ marginTop: 8 }}>
+      <Text style={{ marginTop: 8, marginBottom: 6 }}>
         <Text style={{ fontWeight: 600 }}>Project:</Text> complex highly
         customizable e-commerce solution
       </Text>
-      <Text
-        style={{
-          marginBottom: 6,
-          marginTop: 6,
-        }}
-      >
-        <Text style={{ fontWeight: 600 }}>Tech stack:</Text> React, Redux, SASS,
-        GraphQL, Magento, PWA
-      </Text>
       <ListItem>
-        Developed complex UI components with custom animations using React
+        Designed and developed complex React components with special attention
+        to UX and cross-browser compatibility
       </ListItem>
       <ListItem>
-        Redesigned the whole website according to new Figma designs
-      </ListItem>
-      <ListItem>Added RTL support to components</ListItem>
-      <ListItem>
-        Increased lighthouse scores to 90%+, improved SEO by adjusting SSR logic
-      </ListItem>
-      <ListItem>
-        Added new GraphQL endpoints, implemented backend logic changes
+        Provisioned test environments and tuned product configurations to ensure
+        comprehensive coverage of use cases
       </ListItem>
       <ListItem>
         Enhanced application quality through bug fixes, A11y, and performance
         optimizations
-      </ListItem>
-      <ListItem>
-        Added multiple custom ESLint rules and StyleLint to improve code quality
       </ListItem>
     </View>
     <View style={{ marginTop: 8 }}>
@@ -301,8 +241,9 @@ const Column1 = () => (
         which contributed to better financial outcomes of multiple mobile apps
       </ListItem>
       <ListItem>
-        Introduced test automation on the project, thereby optimizing efficiency
-        of engineering work and reducing manual efforts
+        Introduced test automation on the project using python and pytest,
+        thereby optimizing efficiency of engineering work and reducing manual
+        efforts
       </ListItem>
       <ListItem>
         Helped to formalize the development flow, enabling faster delivery with
@@ -324,11 +265,13 @@ const Column1 = () => (
         efforts between manual, integration and E2E tests (pytest)
       </ListItem>
       <ListItem>
-        Successfully performed the initial release of the app to production
+        Successfully performed the initial release of the app to production.
+        Optimized efficiency of release process by integrating automated tests
+        into CI (TeamCity)
       </ListItem>
       <ListItem>
-        Improved efficiency of testing by using Docker and integrating automated
-        tests into CI
+        Contributed to efficient testing by usage of mocks and running tests in
+        Docker
       </ListItem>
     </View>
     <View style={{ marginTop: 8 }}>
@@ -343,11 +286,15 @@ const Column1 = () => (
       </Text>
       <ListItem>
         Ensured the quality of mobile and web applications through functional,
-        regression and performance testing
+        regression and performance testing across multiple browsers and devices
       </ListItem>
       <ListItem>
-        Created automated Python tests, reducing time to identify software
-        issues
+        Automated tests using Python and Selenium WebDriver, reducing time to
+        identify software issues
+      </ListItem>
+      <ListItem>
+        Conducted accessibility testing to ensure compliance with accessibility
+        standards and enhance user experience
       </ListItem>
     </View>
   </View>
