@@ -271,7 +271,9 @@ const Column1 = () => (
       <ListItem>
         Redesigned the whole website according to new Figma designs
       </ListItem>
-      <ListItem>Added RTL support to components</ListItem>
+      <ListItem>
+        Added RTL support to components, helping the product enter new markets
+      </ListItem>
       <ListItem>
         Increased lighthouse scores to 90%+, improved SEO by adjusting SSR logic
       </ListItem>
