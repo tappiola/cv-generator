@@ -96,7 +96,7 @@ const Column1 = () => (
       She thrives in fast-paced environments, where priorities shift quickly and
       collaboration is essential. Adaptable and proactive, Tatiana readily takes
       on diverse responsibilities with the goal of moving projects forward
-      efficiently and sustainably.
+      efficiently.
     </Text>
     <Title>Employment History</Title>
     <View style={{ marginTop: 4 }}>
@@ -186,7 +186,7 @@ const Column1 = () => (
       </ListItem>
       <ListItem>
         Created custom charts to enhance UX by simplifying comprehension of
-        intricate data
+        complex datasets
       </ListItem>
       <ListItem>
         Ensured application quality and compliance to accessibility standards
@@ -342,8 +342,8 @@ const Column1 = () => (
         across diverse domains (risk management, online gaming, etc.)
       </Text>
       <ListItem>
-        Ensured the quality of mobile and web applications through functional,
-        regression and performance testing
+        Ensured the quality of mobile and web applications through functional
+        and performance testing
       </ListItem>
       <ListItem>
         Created automated Python tests, reducing time to identify software

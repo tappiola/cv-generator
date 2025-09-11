@@ -53,7 +53,8 @@ const Column2 = () => (
     </SectionText>
     <TitleSecondary>Testing</TitleSecondary>
     <SectionText>
-      Cypress, Jest, Vitest, Storybook, Chromatic, React Testing Library
+      Cypress, Playwright, Jest, Vitest, Storybook, Chromatic, React Testing
+      Library
     </SectionText>
     <TitleSecondary>Rest / GraphQL API</TitleSecondary>
     <SectionText>Apollo Client, Axios, TanStack Query</SectionText>
